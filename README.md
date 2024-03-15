@@ -20,7 +20,7 @@ The MATLAB implementation [2] by the authors of [1] and the PyOPUS implementatio
 [4] Gao, F. and Han, L. Implementing the Nelder-Mead simplex algorithm with adaptive parameters. 2012. Computational Optimization and Applications. 51:1, pp. 259-277
 
 
-## Get Started
+## Getting Started
 
 Here is an example of how to use gridnm to minimize the 2D rosenbrock function:
 
