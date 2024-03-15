@@ -22,10 +22,9 @@ The MATLAB implementation [2] by the authors of [1] and the PyOPUS implementatio
 
 Here is an example of how to use gridnm to minimize the 2D rosenbrock function:
 
-```
-from scipy.optimize import rosen
-
+```python
 from gridnm import GridNM
+from scipy.optimize import rosen
 
 
 # initial point
