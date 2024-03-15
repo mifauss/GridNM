@@ -1,5 +1,7 @@
+GridNM
+======
+
 Grid-Restrained Nelder-Mead Algorithm
-=====================================
 
 ## Description
 
