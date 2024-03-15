@@ -26,7 +26,6 @@ Here is an example of how to use gridnm to minimize the 2D rosenbrock function:
 from gridnm import GridNM
 from scipy.optimize import rosen
 
-
 # initial point
 x0 = np.array([-1.2, 1])
 
@@ -37,7 +36,7 @@ gridnm = GridNM(rosen, x0)
 sol = gridnm.solve()
 
 # print solution
-print(f"x_opt = {sol.x})
+print(f"x_opt = {sol.x}")
 ```
 
 See the comments in `src/gridnm/gridnm.py` for options and parameters.
