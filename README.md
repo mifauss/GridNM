@@ -19,6 +19,12 @@ The MATLAB implementation [2] by the authors of [1] and the PyOPUS implementatio
 
 [4] Gao, F. and Han, L. Implementing the Nelder-Mead simplex algorithm with adaptive parameters. 2012. Computational Optimization and Applications. 51:1, pp. 259-277
 
+## Installation
+
+GridNM can be installed from this repository. For example, using pip:
+```
+pip install git+https://gitlab.ets.org/rms/pdsm/testsecurity/gridnm
+```
 
 ## Getting Started
 
