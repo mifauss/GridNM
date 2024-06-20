@@ -89,7 +89,7 @@ class GridNM:
         # Initial simplex
         if initial_simplex is None:
             x0 = np.atleast_1d(x0).flatten()
-            x0 = np.asfarray(x0, x0.dtype)
+            x0 = np.asarray(x0, x0.dtype)
             S = simplex_from_point(x0)
         else:
             S = np.atleast_2d(initial_simplex).copy()
