@@ -89,11 +89,11 @@ class GridNM:
         # Initial simplex
         if initial_simplex is None:
             x0 = np.atleast_1d(x0).flatten()
-            x0 = np.asarray(x0, x0.dtype)
+            x0 = np.asarray(x0, np.float64)
             S = simplex_from_point(x0)
         else:
             S = np.atleast_2d(initial_simplex).copy()
-            S = np.asfarray(S, S.dtype)
+            S = np.asarray(S, np.float64)
             if S.ndim != 2 or S.shape[0] != S.shape[1] + 1:
                 raise ValueError("'initial_simplex' should be an array of shape (N+1, N)")
             if len(x0) != S.shape[1]:

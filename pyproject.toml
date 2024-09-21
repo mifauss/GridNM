@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gridnm"
-version = "0.1.0"
+version = "1.0.0"
 authors = [
   { name="Michael Fauss", email="mfauss@ets.org" },
 ]
@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://gitlab.ets.org/rms/pdsm/testsecurity/gridnm"
-Issues = "https://gitlab.ets.org/rms/pdsm/testsecurity/gridnm/-/issues"
+Homepage = "https://github.com/mifauss/GridNM"
+Issues = "https://github.com/mifauss/GridNM/issues"
 
 [project.optional-dependencies]
 tests = [
