@@ -11,13 +11,13 @@ This implementation has minimal dependencies and integrates well with the SciPy 
 
 The MATLAB implementation [2] by the authors of [1] and the PyOPUS implementation [3] were used for reference. Variable names and default parameter were mostly taken from [1]. The adaptive parameters are as suggest in [4]. 
 
-[1] Bűrmen, Árpád & Puhan, Janez & Tuma, Tadej. (2006). Grid Restrained Nelder-Mead Algorithm. Computational Optimization and Applications. 34. 359-375. 10.1007/s10589-005-3912-z.
+[1] [Bűrmen, Árpád & Puhan, Janez & Tuma, Tadej. (2006). Grid Restrained Nelder-Mead Algorithm. Computational Optimization and Applications. 34. 359-375.](https://www.researchgate.net/publication/225153967_Grid_Restrained_Nelder-Mead_Algorithm)
 
 [2] https://fides.fe.uni-lj.si/~arpadb/software-grnm.html
 
 [3] http://spiceopus.si/pyopus/doc/optimizer.grnm.html?highlight=grnm#module-pyopus.optimizer.grnm
 
-[4] Gao, F. and Han, L. Implementing the Nelder-Mead simplex algorithm with adaptive parameters. 2012. Computational Optimization and Applications. 51:1, pp. 259-277
+[4] [Gao, F. and Han, L. Implementing the Nelder-Mead simplex algorithm with adaptive parameters. 2012. Computational Optimization and Applications. 51:1, pp. 259-277.](https://www.researchgate.net/publication/225691623_Implementing_the_Nelder-Mead_simplex_algorithm_with_adaptive_parameters)
 
 ## Installation
 
