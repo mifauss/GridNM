@@ -35,7 +35,7 @@ from gridnm import GridNM
 from scipy.optimize import rosen
 
 # initial point
-x0 = np.array([-1.2, 1])
+x0 = [-1.2, 1]
 
 # create solver instance
 gridnm = GridNM(rosen, x0)
