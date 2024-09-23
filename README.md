@@ -21,9 +21,9 @@ The MATLAB implementation [2] by the authors of [1] and the PyOPUS implementatio
 
 ## Installation
 
-GridNM can be installed from this repository. For example, using pip:
+GridNM is available on PyPI and can be installed, for example, using pip:
 ```
-pip install git+https://gitlab.ets.org/rms/pdsm/testsecurity/gridnm
+pip install gridnm
 ```
 
 ## Getting Started
