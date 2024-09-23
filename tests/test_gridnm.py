@@ -4,7 +4,7 @@ import pytest
 
 from scipy.optimize import rosen  # type: ignore
 
-from ..src.gridnm import GridNM
+from gridnm import GridNM
 
 
 def mckinnon(x: npt.NDArray[np.float64], theta: float = 6, phi: float = 60, w: float = 2) -> np.float64:
